@@ -1,0 +1,128 @@
+*{
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+.container{
+   position: relative;
+}
+
+/* .container_1 */
+
+.container_1{
+   position: relative;
+   min-height: 60vh;
+   width: 100%;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.container_1 img{
+   height: 500px;
+   width: 100%;
+   opacity: .6;
+}
+
+.container_1 div{
+   position: absolute;
+   top: 41%;
+   left: 37%;
+}
+
+.container_1 div h3{
+   color: #50527d;
+   font-weight: 800;
+   font-size: 3rem;
+   text-transform: capitalize;
+}
+
+/* container 2 */
+
+.container_2{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+}
+
+.content{
+   margin: 2rem;
+   margin-bottom: 2rem;
+}
+
+.content img{
+   border-radius: 20px;
+   height: 376px;
+   width: 658px;
+}
+
+.content h2{
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   font-size: 2rem;
+   font-weight: 700;
+}
+
+.content p{
+   font-size: 1.4rem;
+   font-weight: 530;
+}
+
+/* .container_3 */
+
+.container_3{
+   width: 100%;
+   background: #50527d;
+   color: #fff;
+}
+
+.container_3 h2{
+   text-align: center;
+   padding: 2rem;
+   font-weight: 700;
+   font-size: 2rem;
+}
+
+.container_3 p{
+   padding: 0 2.5rem;
+   line-height: 1.5;
+   letter-spacing: 1.5;
+   font-weight: 500;
+   font-size: 1.2rem;
+}
+
+.container_3 .goals{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 2rem;
+}
+
+.goals .goal-card{
+   border: 2px solid #fff;
+   background: rgb(56, 54, 54);
+   margin: 2rem;
+}
+
+.goal-card h2{
+   font-size: 1.4rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   padding-bottom: .3rem;
+   color: #fff;
+   float: left;
+}
+
+.goal-card p{
+   float: left;
+   text-transform: capitalize;
+   font-size: 1.4rem;
+   font-weight: 500;
+   line-height: 1.4;
+   letter-spacing: 1.3;
+   color: bisque;
+   padding-bottom: 2rem;
+}

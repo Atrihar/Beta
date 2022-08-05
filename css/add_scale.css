@@ -1,0 +1,105 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #393f45;
+   height: 100vh;
+}
+
+.content{
+   border: 3px solid #ee550e;
+   padding: 2rem;
+   background: #26292b;
+   margin: 3rem 0;
+   border-radius: 1rem;
+   width: 40%;
+   box-shadow: 3px 3px 3px #000;
+}
+
+tr{
+   padding: 1rem 0;
+   margin: 1rem 0;
+}
+
+td{
+   font-size: 1.5rem;
+   font-weight: 500;
+   letter-spacing: 1px;
+   padding: .5rem;
+   border-collapse: collapse;
+   text-align: center;
+   color: #84878a;
+   margin-bottom: 1rem;
+}
+
+input{
+   width: 18rem;
+   height: 1.5rem;
+   background: transparent;
+   border: none;
+   outline: none;
+   border-bottom: 3px solid #ee550e;
+   border-radius: 1rem;
+   font-size: 1.2rem;
+   padding-left: .8rem;
+   font-weight: 500;
+   color: #fff;
+}
+
+input::placeholder{
+   font-size: 1.2rem;
+   font-weight: 500;
+   letter-spacing: 1px;
+   padding-left: .8rem;
+}
+
+.button{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 4rem;
+}
+
+.button input{
+   background: #ee550e;
+   border-radius: 1rem;
+   height: 2.6rem;
+   font-size: 1.3rem;
+   font-weight: 550;
+   width: 10rem;
+   color: #fff;
+   letter-spacing: 1px;
+   padding: .5rem 1rem;
+   margin-right: .5rem;
+   transition: all .4s ease;
+}
+
+a{
+   background: #ee550e;
+   border-radius: 1rem;
+   height: 2.6rem;
+   font-size: 1.3rem;
+   font-weight: 550;
+   width: 10rem;
+   color: #fff;
+   letter-spacing: 1px;
+   padding: .5rem 1rem;
+   text-decoration: none;
+   transition: all .4s ease;
+}
+
+.button input:hover,
+a:hover{
+   box-shadow: 2px 2px 2px #fff;
+   font-weight: 600;
+}
+
+
+

@@ -1,0 +1,161 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+.con{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #393f45;
+   height: 100vh;
+   width: 100%;
+}
+
+.container{
+   border: 3px solid #ee550e;
+   padding: 2rem;
+   height: 70vh;
+   width: 50%;
+   background: #26282b;
+   border-radius: 1rem;
+   box-shadow: 3px 3px 3px #000;
+}
+
+.title{
+   font-size: 2.5rem;
+   font-weight: 800;
+   color: #84878a;
+   padding-bottom: 2rem;
+}
+
+.user-detailes{
+   font-size: 1.3rem;
+   font-weight: 600;
+}
+
+.input-box{
+   padding: .7rem 0;
+}
+
+.input-box input{
+   width: 85%;
+   height: 2rem;
+   border: none;
+   outline: none;
+   color: #fff;
+   font-weight: 500;
+   font-size: 1.2rem;
+   padding-left: 1rem;
+   border-radius: 10px;
+   background: transparent;
+   border-bottom: 3px solid #ee550e;
+}
+
+input::placeholder{
+   font-size: 1.2rem;
+}
+
+.forgot{
+   padding: 1rem 0;
+}
+
+a{
+   text-decoration: none;
+}
+
+.forgot a{
+   letter-spacing: 1px;
+   color: #ee550e;
+   font-size: 1.3rem;
+   font-weight: 550;
+   transition: all .3s ease;
+}
+
+.forgot a:hover{
+   color: #fff;
+}
+
+.button{
+   padding-bottom: 1.5rem;
+   padding-top: .5rem;
+}
+
+.button input{
+   background: #ee550e;
+   color: #000;
+   height: 3rem;
+   width: 10rem;
+   font-size: 1.3rem;
+   font-weight: 550;
+   border-radius: 1rem;
+   box-shadow: 3px 3px 3px #84878a;
+   cursor: pointer;
+   transition: all .3s ease;
+}
+
+.button input:hover{
+   background: #84878a;
+   color: #000;
+   box-shadow: 3px 3px 3px #ee550e;
+}
+
+.social{
+   display: flex;
+   justify-content: space-between;
+}
+
+.social h3{
+   color: #84878a;
+   font-size: 1.2rem;
+   font-weight: 550;
+   letter-spacing: 1px;
+}
+
+.icons{
+   display: flex;
+   justify-content: space-between;
+}
+
+.icons a{
+   padding: 0 1rem;
+}
+
+i{
+   font-size: 2rem;
+   font-weight: 600;
+   color: #ee550e;
+   transition: all .3s ease;
+   box-shadow: 3px 3px 3px 3px #fff;
+   border-radius: 5px;
+}
+
+i:hover{
+   color: #fff;
+   box-shadow: 3px 3px 3px 3px #ee550e;
+}
+
+.reg{
+   padding: 1.4rem 0;
+   letter-spacing: 1px;
+}
+
+.reg h3{
+   font-size: 1.3rem;
+   font-weight: 550;
+   color: #84878a;
+}
+
+.reg a{
+   font-size: 1.4rem;
+   font-weight: 600;
+   color: #ee550e;
+   transition: all .3s ease;
+}
+
+.reg a:hover{
+   color: #fff;
+   font-weight: 700;
+}

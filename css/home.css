@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Kanit:wght@500&family=Source+Code+Pro:wght@600&display=swap');
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+/* parent container */
+
+.container{
+   position: relative;
+}
+
+/* .container-1 */
+
+.container-1{
+   display: flex;
+   font-family: 'Josefin Sans', sans-serif;
+   min-height: 100vh;
+   width: 100%;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   background: rgb(44, 65, 111);
+}
+
+.container-1 div{
+   height: 100vh;
+   padding: 2rem;
+}
+
+.container-1 div img{
+   padding-top: 2rem;
+   height: 500px;
+   width: 529px;
+}
+
+.container-1 h2{
+   padding-top: 10rem;
+   font-weight: 800;
+   font-size: 3.4rem;
+   color: azure;
+   float: left;
+}
+
+.container-1 p{
+   padding-top: 2rem;
+   line-height: 2;
+   letter-spacing: 2;
+   font-size: 2rem;
+   font-weight: 500;
+   color: aliceblue;
+   float: left;
+}
+
+/* .container-2 */
+
+.container-2{
+   width: 100%;
+   min-height: 70vh;
+   align-items: center;
+   text-align: center;
+   background: #244a87;
+   color: #fff;
+   padding: 1rem;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-2 h2{
+   font-size: 2.5rem;
+   font-weight: 700;
+   padding-top: 2rem;
+   padding-bottom: 1.5rem;
+}
+
+.container-2 p{
+   line-height: 1;
+   letter-spacing: 3;
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+
+.card{
+   padding-top: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   cursor: pointer;
+}
+
+.cards{
+   background: #7a95bc;
+   padding: 1rem;
+   border-radius: 10px;
+   transition: all .4s ease;
+}
+
+.cards:hover{
+   box-shadow: 7px 7px 7px 7px #272727;
+ 
+}
+
+.cards img{
+   height: 150px;
+   width: 200px;
+   border-radius: 15px;
+}
+
+.cards-heading{
+   padding: 1rem;
+   font-size: 1.4rem;
+   font-weight: 800;
+   color: black;
+}
+
+.card-des{
+   margin-top: 5rem;
+   margin-left: 4rem;
+   margin-right: 4rem;
+}
+
+.card-detailes{
+   margin-bottom: 4rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.card-detailes img{
+   height: 350px;
+   width: 500px;
+   border-radius: 30px;
+}
+
+.card-detailes div{
+   margin: 0 5px;
+}
+
+.card-detailes div h3{
+   font-weight: 600;
+   font-size: 2.5rem;
+   letter-spacing: 2;
+   line-height: 2;
+}
+
+.card-detailes div p{
+   font-size: 1.3rem;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 1;
+   margin-bottom: 2rem;
+}
+
+.card-detailes a{
+   padding: 15px 40px; 
+   text-decoration: none;  
+   color: #fff;;
+   background: burlywood;
+   font-size: 1.5rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   transition: all .4s ease;
+}
+
+.card-detailes a:hover{
+   background: #fff;
+   color: #000;
+   box-shadow: 4px 4px 4px 4px #272727;
+}
+
+/* .container-3 */
+
+.container-3{
+   min-height: 100vh;
+   width: 100%;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-family: 'Kanit', sans-serif;
+}
+ 
+.image img{
+   height: 90vh;
+   width: 100%;
+   opacity: .3;
+}
+
+.content-why{
+   position: absolute;
+   top: 32%;
+}
+.container-3 h2{
+   padding-bottom: 1.5rem;
+   font-size: 3rem;
+   font-weight: 800;
+}
+
+.container-3 p{
+   font-size: 1.4rem;
+   padding: 0 6rem;
+   letter-spacing: 1;
+   line-height: 2;
+   font-weight: 650;
+}
+
+.container-4{
+   width: 100%;
+   min-height: 50vh;
+   background:#7a95bc;
+}
+
+.container-4 h3{
+   font-size: 2rem;
+   font-weight: 600;
+   line-height: 2;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.clients{
+   padding: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.client-card{
+   padding: 2rem;
+   background: darkgrey;
+   border-radius: 20px;
+   font-size: 1.2rem;
+   font-weight: 500;
+   width: 15%;
+   line-height: 2;
+   cursor: pointer;
+}
+
+.client-card:hover{
+   box-shadow: 3px 3px 3px 3px #272727;
+}
+
+
+.container-4 a{
+   padding: 2.2rem;
+}
+
+.container-4 a input{
+   cursor: pointer;
+   padding: .5rem 1rem;
+   margin-bottom: 2rem;
+   border-radius: 10px;
+   font-size: 1rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   width: 18%;
+   background: #244a87;
+   color: #fff;
+   transition: all .4s ease;
+}
+
+.container-4 a input:hover{
+   box-shadow: 5px 5px 5px 5px #272727;
+   background:cadetblue;
+   color:blueviolet;
+}
